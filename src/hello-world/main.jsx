@@ -6,6 +6,7 @@ import Todolist from "../todolist/Todolist.jsx";
 import Table from "../table/Table.jsx";
 import AlertButton from "../button/AlertButton.jsx";
 import MyButton from "../button/MyButton.jsx";
+import SearchForm from "../form/SearchForm.jsx";
 
 
 createRoot(document.getElementById("root"))
@@ -20,8 +21,12 @@ createRoot(document.getElementById("root"))
                 <AlertButton text="Click me" message="You Click me"/>
                 <AlertButton text="Click You" message="You Click You"/>
 
-                <MyButton text="Smash me" onSmash={()=> alert("You Smash Me")}/>
-                <MyButton text="Hit me" onSmash={()=> alert("You Hit Me")}/>
+                <MyButton text="Smash me" onSmash={() => alert("You Smash Me")}/>
+                <MyButton text="Hit me" onSmash={() => alert("You Hit Me")}/>
+                <br/>
+                <br/>
+
+                <SearchForm/>
 
             </Container>
 
