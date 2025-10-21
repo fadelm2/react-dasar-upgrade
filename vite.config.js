@@ -11,4 +11,5 @@ export default defineConfig({
         hello_world: "hello-world.html",
       }
     }
-})
+}}
+)
