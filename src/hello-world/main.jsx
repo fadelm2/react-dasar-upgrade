@@ -7,6 +7,7 @@ import Table from "../table/Table.jsx";
 import AlertButton from "../button/AlertButton.jsx";
 import MyButton from "../button/MyButton.jsx";
 import SearchForm from "../form/SearchForm.jsx";
+import SayHelloForm from "../form/SayHelloForm.jsx";
 
 
 createRoot(document.getElementById("root"))
@@ -27,6 +28,9 @@ createRoot(document.getElementById("root"))
                 <br/>
 
                 <SearchForm/>
+                <br/>
+                <br/>
+                <SayHelloForm/>
 
             </Container>
 
