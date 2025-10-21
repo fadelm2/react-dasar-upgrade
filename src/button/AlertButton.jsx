@@ -1,7 +1,8 @@
 
 
 export default function AlertButton({text, message}) {
-    function handleClick() {
+    function handleClick(e) {
+        console.info(e)
         alert(message)
     }
 
