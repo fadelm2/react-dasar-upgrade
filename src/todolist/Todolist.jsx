@@ -2,14 +2,33 @@ import Todo from "./Todo.jsx";
 
 
 export default function Todolist() {
+    const data = [
+        {
+            text: "Learn HTML",
+            isCompleted: true,
+        },
+        {
+            text: "Learn CSS",
+            isCompleted: true,
+        },
+        {
+            text: "Learn JavaScript",
+            isCompleted: true,
+        },
+        {
+            text: "Learn ReactJS",
+            isCompleted: false,
+        },
+    ];
+
+    const todos = data.map((todo) => (
+        <Todo {... todo}/>
+    ))
+
     return (
         <ul>
 
-            <Todo isCompleted={true} text="Learn HTML"/>
-
-            <Todo isCompleted={true} text="Learn CSS"/>
-            <Todo isCompleted={true} isDeleted={true} text="Learn Javascript"/>
-            <Todo isCompleted={false} text="Learn ReactJs"/>
+            {todos}
 
         </ul>
 
