@@ -6,10 +6,15 @@ export default function Counter() {
     return (
         <div>
             <button onClick={() => {
-                setCounter(counter + 1)
+                setCounter(c => c + 1);
+                setCounter(c => c + 1);
+
+                setCounter(c => c + 1);
+
+
                 console.log(counter);
             }}>
-                Increment
+                Increment +3
             </button>
             <h1>Counter : {counter}</h1>
         </div>
