@@ -8,6 +8,7 @@ import AlertButton from "../button/AlertButton.jsx";
 import MyButton from "../button/MyButton.jsx";
 import SearchForm from "../form/SearchForm.jsx";
 import SayHelloForm from "../form/SayHelloForm.jsx";
+import Counter from "../form/Counter.jsx";
 
 
 createRoot(document.getElementById("root"))
@@ -31,6 +32,12 @@ createRoot(document.getElementById("root"))
                 <br/>
                 <br/>
                 <SayHelloForm/>
+                <br/>
+                <br/> <br/>
+                <br/>
+
+                <Counter/>
+                <Counter/>
 
             </Container>
 
