@@ -6,8 +6,8 @@ export default function Table() {
         <table border="1">
             <tbody>
             <Row id={1} text={"Satu"}/>
-            <Row  id={2} text={"Dua"}/>
-            <Row id={3} text={"iga"}/>
+            <Row id={2} text={"Dua"}/>
+            <Row id={3} text={"Tiga"}/>
             </tbody>
         </table>
     )
