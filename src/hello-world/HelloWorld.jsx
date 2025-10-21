@@ -1,3 +1,4 @@
+import "./HelloWorld.css"
 export default function HelloWorld (){
     const props = {
         text : "Hello World from Spead Syntax",
@@ -18,6 +19,6 @@ function HeaderHelloWorld({text = "Ups, lupa kasi teks"}){
 function ParagraphHelloWorld(){
     const text = "Selamat Belajar ReactJS dari Programmer Zaman Now";
     return (
-        <p className="content">{text.toLowerCase()}</p>
+        <p  className="content">{text.toLowerCase()}</p>
     )
 }
